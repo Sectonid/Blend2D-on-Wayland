@@ -20,7 +20,6 @@ else
 		clear
 	fi
 	
-	mkdir ./Build/
 	echo -e "\033[1;34mSecton's temp compiler script"
 	echo    " ╭──────────────────────╮"
 	echo    " │ Compiling sources... │ 🏗"
