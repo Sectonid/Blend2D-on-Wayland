@@ -27,7 +27,7 @@ else
 	echo -e " ╰──────────────────────╯\033[0m"
 	clang -c ./Libraries/xdg-shell-protocol.c -o ./Build/xdg.o
 	clang++ ./Build/xdg.o ./Libraries/libblend2d.so ./Source/Start.C++ -I ./Libraries/blend2d/src/ -lwayland-client -o ./Build/Output.elf
-	chmod +x ./Build/
+	chmod +x ./Build/Output.elf
 
 	if [[ "$1" == "run" ]]; then
 		echo -e "\033[1;34m"
